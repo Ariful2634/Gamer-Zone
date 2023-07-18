@@ -89,6 +89,7 @@ nav{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    background: #FFF;
 }
 .banner-img{
     width: 50%;
@@ -144,6 +145,9 @@ nav{
 
 /*online games section*/
 
+.gamming{
+    background: #FFF;
+}
 .games{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -192,6 +196,7 @@ nav{
     display: flex;
     gap: 40px;
     align-items: center;
+    background: #FFF;
 }
 .play-text{
     width: 35%;
@@ -234,6 +239,40 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/*button section*/
+
+.btn{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.button-section button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    gap: 10px;
+    background-color: transparent;
+    color: #0B0223;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.button-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    margin-top: -50px;
+    justify-content: center;
+    
+}
+.button-section button:hover{
+    border: 1px solid #FF42A5;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50px;
+    }
 
 
 
@@ -325,6 +364,31 @@ nav{
         margin-top: 5px;
         text-align: center;
     }
+    .button-section{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 2px;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .button-section button{
+        font-size: 10px;
+        font-weight: 600;
+        gap: 2px;
+    }
+    .button-section button img{
+        width: 33px;
+    }
+    .button-section button:hover{
+        border: 1px solid #FF42A5;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 50px;
+        }
 }
 
 
@@ -386,5 +450,13 @@ nav{
         top: -130px;
         left: 120px;
     }
+    .button-section button:hover{
+        border: 1px solid #FF42A5;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 50px;
+        }
 }
 
