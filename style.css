@@ -178,6 +178,64 @@ nav{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+.games img:hover {
+    border: 2px solid red;
+    border-radius: 15px;
+    
+    
+}
+
+/*play instant section*/
+
+
+.play{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.play-text{
+    width: 35%;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+}
+.play-img{
+    width: 75%;
+}
+.play-img img{
+    width: 75%;
+    margin-left: 300px;
+    
+}
+.girl{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -160px;
+    left: 200px;
+}
+
+.play-text h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: end;
+}
+.play-text p{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: center;
+}
+.play-description{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 
 
 
@@ -191,7 +249,7 @@ nav{
         height: 250px;
         padding: 20px;
     }
-    nav,  .logo-span, .media-text, .banner{
+    nav,  .logo-span, .media-text, .banner, .play{
         flex-direction: column;
     }
     .media{
@@ -236,6 +294,37 @@ nav{
         text-align: center;
         margin-right: 30px;
     }
+    .play-text{
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+       width: 60%;
+       text-align: center;
+    }
+    .play-img img{
+        width: 90%;
+        margin-left: 80px;   
+    }
+    .girl{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -70px;
+        left: 40px;
+    }
+    .play-text h2{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-align: center;
+        margin-top: -40px;
+    }
+    .play-text p{
+        font-size: .8rem;
+        font-weight: 400;
+        margin-top: 5px;
+        text-align: center;
+    }
 }
 
 
@@ -247,7 +336,7 @@ nav{
         height: 100px;
         padding: 20px;
     }
-    .banner{
+    .banner, .play{
         flex-direction: column;
     }
     .banner-img{
@@ -270,6 +359,32 @@ nav{
         font-weight: 600;
         text-align: center;
         margin-right: 30px;
+    }
+    .play-text{
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+       width: 80%;
+       text-align: center;
+    }
+    .play-text h2{
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-align: center;
+        margin-top: -10px;
+        
+    }
+    .play-img img{
+        width: 80%;
+        margin-left: 220px;   
+    }
+    .girl{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: -130px;
+        left: 120px;
     }
 }
 
