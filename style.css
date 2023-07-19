@@ -24,6 +24,7 @@ main{
 }
 
 section{
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
@@ -47,6 +48,12 @@ nav{
     display: flex;
     align-items: center;
     
+}
+.logo-span a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 .logo-span ul{
     display: flex;
@@ -197,6 +204,7 @@ nav{
     gap: 40px;
     align-items: center;
     background: #FFF;
+    margin-bottom: -70px;
 }
 .play-text{
     width: 35%;
@@ -273,6 +281,89 @@ nav{
     -webkit-text-fill-color: transparent;
     border-radius: 50px;
     }
+
+    /*footer section*/
+footer{
+    background: #0B0223;
+    height: 400px;
+}
+
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .footer-logo h3{ 
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FFF;
+    }
+.footer-logo img{
+    width: 80px;
+}
+.footer-logo span{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-logo-text p{
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.footer-logo-text{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social span{
+color: #FFFFFF;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.condition-text small{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.condition-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.gamer-bd small{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.gamer-bd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
 
 
 
@@ -388,6 +479,27 @@ nav{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border-radius: 50px;
+        }
+        footer{
+            width: auto;
+            height: 550px;
+        }
+        .footer-logo-text{
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .condition-text{
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+
+        }
+        .gamer-bd{
+            max-width: 300px;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            text-align: center;
+            
         }
 }
 
