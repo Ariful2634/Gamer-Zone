@@ -191,10 +191,72 @@ nav{
 }
 .games img:hover {
     border: 2px solid red;
-    border-radius: 15px;
-    
-    
+    border-radius: 15px;  
 }
+
+.funny-video{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.funny-video:hover img{
+    filter: brightness(50%);
+}
+
+.funny-video{
+    position: relative;
+}
+.funny-img{
+    position: relative;
+    display: inline-block;
+}
+.funny-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.funny-img:hover::before{
+    opacity: 0.5s;
+}
+.funny-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+.funny-icon i{
+    font-size: 1.2rem;
+    margin-left: 30px;
+}
+.funny-icon span{
+    display: block;
+    margin-top: 5px;
+    color: #FF42A5;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.funny-img:hover .funny-icon{
+    opacity: 1;
+}
+
+
+
+
+
+
 
 /*play instant section*/
 
